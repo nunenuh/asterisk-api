@@ -1,0 +1,25 @@
+{
+    "name": "nunenuh/asterisk-api",
+    "description": "Asterisk API for configure asterisk file configuration on Briker Distro",
+    "version": "0.1.0",
+    "type": "library",
+    "time": "2014-07-05",
+    "keywords": ["API", "Asterisk", "Briker"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lalu Erfandi Maula Yusnu",
+            "email": "nunenuh@gmail.com",
+            "homepage": "http://nunenuh.web.id"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "AsteriskAPI": "src/",
+            "AsteriskAPITest": "test/"
+        }
+    },
+    "require": {
+        "php": ">=5.3.3"
+    }
+}
